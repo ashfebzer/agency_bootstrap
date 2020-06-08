@@ -50,3 +50,23 @@ nav.r-nav.stickyadd {
   box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.05);
   transition: 0.5s all ease-in-out;
 }
+
+nav.stickyadd .navbar-brand {
+  color: #000;
+  font-size: 40px;
+  transition: .5s all;
+}
+
+nav.stickyadd .navbar-nav .nav-link {
+  color: #000 !important;
+}
+
+/*  HAMBURGER MENU */
+
+nav .hamburger {
+  color: #fff;
+}
+
+nav.stickyadd .hamburger {
+  color: #000;
+}
