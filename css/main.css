@@ -15,6 +15,14 @@ p {
   color: #6c757d;
 }
 
+.r-p {
+  padding: 80px 0;
+}
+
+.bg-sec {
+  background: #f8f9fa;
+}
+
 /* Navigation */
 nav.r-nav {
   background: transparent;
@@ -140,4 +148,26 @@ header {
 .exp-class label {
   font-size: 20px;
   margin: 10px;
+}
+
+/* Services Section */
+
+.card, .card-header {
+  background: #F8F9Fa !important;
+}
+
+.card-header {
+  border: none !important;
+}
+
+.services .card-header i {
+  font-size: 50px;
+}
+
+.service-border {
+  height: 2px;
+  width: 40px;
+  margin: 15px auto;
+  background: #e65f78;
+  transition: 0.5s all;
 }
