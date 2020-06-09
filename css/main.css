@@ -116,3 +116,28 @@ header {
 .content-box p {
   color: #fff;
 }
+
+/* About Section */
+
+#about .col-lg-6.mt-2.mt-lg-0 ul {
+  display: inline-block;
+  font-size: 30px;
+  transition: .5s all;
+}
+
+/* Experience section - progress bar */
+
+.exp-class .progress {
+  height: 10px;
+  border-radius: 20px;
+  font-size: 10px;
+}
+
+.progress-bar {
+  background-color: #ee8683 !important;
+}
+
+.exp-class label {
+  font-size: 20px;
+  margin: 10px;
+}
