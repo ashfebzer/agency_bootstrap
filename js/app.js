@@ -37,10 +37,10 @@ var waypoint = new Waypoint({
     p[4].setAttribute("style", "width:85%;transition:2.3s all;");
     p[5].setAttribute("style", "width:95%;transition:2.5s all;");
 
-
   },
    offset: '90%'
 });
 
+ $(".owl-carousel").owlCarousel();
 
 });

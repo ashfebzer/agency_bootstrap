@@ -23,6 +23,25 @@ p {
   background: #f8f9fa;
 }
 
+.r-btn {
+  text-decoration: none;
+  padding: 10px 25px;
+  background: #000;
+}
+
+.r-btn:hover {
+  border: 2px solid #000;
+  background: none;
+}
+
+.hire-me .col a {
+  color: #fff !important;
+}
+
+.hire-me .col a:hover {
+  color: #000 !important;
+}
+
 /* Navigation */
 nav.r-nav {
   background: transparent;
@@ -170,4 +189,11 @@ header {
   margin: 15px auto;
   background: #e65f78;
   transition: 0.5s all;
+}
+
+/* Testimonial */
+.testimony-class .test-item {
+  max-width: 500px;
+  margin: 50px auto;
+
 }
