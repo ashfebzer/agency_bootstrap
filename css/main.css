@@ -24,6 +24,7 @@ p {
 }
 
 .r-btn {
+  color: #fff;
   text-decoration: none;
   padding: 10px 25px;
   background: #000;
@@ -195,5 +196,20 @@ header {
 .testimony-class .test-item {
   max-width: 500px;
   margin: 50px auto;
+}
 
+.testimony-class .test-item .test-img{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.test-item p.test-name{
+  font-size: 11px;
+}
+
+/* Work Section */
+.work .card-wrapper {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }

@@ -41,6 +41,20 @@ var waypoint = new Waypoint({
    offset: '90%'
 });
 
- $(".owl-carousel").owlCarousel();
+// Filterizer
+var filterizd = $('.filter-container').filterizr({
+  animationDuration :.5,
+});
+
+
+// Owl Carousel
+ $(".owl-carousel").owlCarousel({
+   loop:true,
+   autoplay:true,
+   autoplayTimeout:4000,
+   items:1
+
+
+ });
 
 });
