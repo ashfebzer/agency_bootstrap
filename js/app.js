@@ -41,15 +41,6 @@ var waypoint = new Waypoint({
    offset: '90%'
 });
 
-// One page nav
-$('#menu').onePageNav({
-	currentClass: 'current',
-	changeHash: false,
-	scrollSpeed: 750,
-	scrollThreshold: 0.5,
-	filter: '',
-	easing: 'swing'
-});
 
 // Filterizer
 var filterizd = $('.filter-container').filterizr({
@@ -63,7 +54,17 @@ var filterizd = $('.filter-container').filterizr({
    autoplayTimeout:4000,
    items:1
 
-  });
+});
+
+// One page nav
+$('#menu').onePageNav({
+	currentClass: 'current',
+	changeHash: false,
+	scrollSpeed: 750,
+	scrollThreshold: 0.5,
+	filter: '',
+	easing: 'swing'
+});
 
 // Back to top
  $(document).ready(function(){
