@@ -41,11 +41,20 @@ var waypoint = new Waypoint({
    offset: '90%'
 });
 
+// One page nav
+$('#menu').onePageNav({
+	currentClass: 'current',
+	changeHash: false,
+	scrollSpeed: 750,
+	scrollThreshold: 0.5,
+	filter: '',
+	easing: 'swing'
+});
+
 // Filterizer
 var filterizd = $('.filter-container').filterizr({
   animationDuration :.5,
 });
-
 
 // Owl Carousel
  $(".owl-carousel").owlCarousel({
@@ -54,11 +63,9 @@ var filterizd = $('.filter-container').filterizr({
    autoplayTimeout:4000,
    items:1
 
+  });
 
- });
-
- });
-
+// Back to top
  $(document).ready(function(){
 	$(window).scroll(function () {
 			if ($(this).scrollTop() > 50) {
@@ -67,6 +74,7 @@ var filterizd = $('.filter-container').filterizr({
 				$('#back-to-top').fadeOut();
 			}
 		});
+
 		// scroll body to 0px on click
 		$('#back-to-top').click(function () {
 			$('body,html').animate({
@@ -75,3 +83,6 @@ var filterizd = $('.filter-container').filterizr({
 			return false;
 		});
 });
+
+
+ });
