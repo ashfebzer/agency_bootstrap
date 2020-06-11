@@ -43,6 +43,8 @@ p {
   color: #000 !important;
 }
 
+
+
 /* Navigation */
 nav.r-nav {
   background: transparent;
@@ -217,4 +219,12 @@ header {
 /* Contact Us Section */
 .contact .r-icon{
   font-size: 50px;
+}
+
+
+
+/* Footer Section */
+footer {
+    height: 100px;
+    background: #000;
 }
