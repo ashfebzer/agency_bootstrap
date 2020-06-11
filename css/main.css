@@ -5,14 +5,16 @@
 }
 
 h1,h2,h3,h4,h5,h6 {
+  font-weight: 700;
   font-family: 'Montserrat', sans-serif;
+  color: #666666;
 }
 
 p {
   font-family: 'Nunito', sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 30px;
-  color: #6c757d;
+  color: #666666;
 }
 
 .r-p {
@@ -27,11 +29,12 @@ p {
   color: #fff;
   text-decoration: none;
   padding: 10px 25px;
-  background: #000;
+  background: #72bc44;
 }
 
 .r-btn:hover {
-  border: 2px solid #000;
+  color: #72bc44;
+  border: 2px solid #72bc44;
   background: none;
 }
 
@@ -40,7 +43,7 @@ p {
 }
 
 .hire-me .col a:hover {
-  color: #000 !important;
+  color: #72bc44 !important;
 }
 
 
@@ -53,6 +56,8 @@ nav.r-nav {
 }
 
 nav .navbar-brand {
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   color: #fff;
 }
@@ -78,13 +83,13 @@ nav.r-nav.stickyadd {
 }
 
 nav.stickyadd .navbar-brand {
-  color: #000;
-  font-size: 40px;
+  color: #72bc44;
+  font-size: 30px;
   transition: .5s all;
 }
 
 nav.stickyadd .navbar-nav .nav-link {
-  color: #000 !important;
+  color: #666666 !important;
 }
 
 /*  HAMBURGER MENU */
@@ -122,10 +127,12 @@ header {
 }
 
 .content-box h4 {
+  color: #fff;
   font-size: 30px;
 }
 
 .content-box h1 {
+  color: #fff;
   font-size: 52px;
 }
 
@@ -138,7 +145,7 @@ header {
 }
 
 .content-box a:hover {
-  color: #000;
+  color: #72bc44;
   background: #fff;
   transition: .5s all;
 }
@@ -147,12 +154,20 @@ header {
   color: #fff;
 }
 
+#home .content-box span {
+  color: #72bc44;
+}
+
 /* About Section */
 
 #about .col-lg-6.mt-2.mt-lg-0 ul {
   display: inline-block;
   font-size: 30px;
   transition: .5s all;
+}
+
+.about ul li a {
+  color: #72bc44;
 }
 
 /* Experience section - progress bar */
@@ -164,7 +179,7 @@ header {
 }
 
 .progress-bar {
-  background-color: #ee8683 !important;
+  background-color: #72bc44 !important;
 }
 
 .exp-class label {
@@ -176,6 +191,12 @@ header {
 
 .card, .card-header {
   background: #F8F9Fa !important;
+  margin-top:20px;
+}
+
+#services-id .services-list {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
 }
 
 .card-header {
@@ -190,8 +211,14 @@ header {
   height: 2px;
   width: 40px;
   margin: 15px auto;
-  background: #e65f78;
+  background: #72bc44;
   transition: 0.5s all;
+}
+
+.services-class .card .card-header i {
+  margin-top: 10px;
+  font-size: 25px;
+  color: #72bc44;
 }
 
 /* Testimonial */
@@ -210,6 +237,10 @@ header {
   font-size: 11px;
 }
 
+.testimony-class .test-item i {
+  color: #72bc44;
+}
+
 /* Work Section */
 .work .card-wrapper {
   padding-top: 15px;
@@ -218,13 +249,28 @@ header {
 
 /* Contact Us Section */
 .contact .r-icon{
-  font-size: 50px;
+  color: #72bc44;
+  font-size: 35px;
+  margin:
 }
 
 
 
 /* Footer Section */
+
 footer {
     height: 100px;
-    background: #000;
+    background: #343a40;
+}
+
+footer .r-icon a {
+  color: #fff !important;
+}
+
+footer .r-icon a:hover {
+  color: #72bc44 !important;
+}
+
+footer .r-icon p {
+  color: #
 }
