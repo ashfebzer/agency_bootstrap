@@ -38,13 +38,6 @@ p {
   background: none;
 }
 
-.hire-me .col a {
-  color: #fff !important;
-}
-
-.hire-me .col a:hover {
-  color: #72bc44 !important;
-}
 
 
 
@@ -220,6 +213,22 @@ header {
   font-size: 25px;
   color: #72bc44;
 }
+
+/* Work with us section */
+
+section#hire-Id {
+  background: #72bc44;
+  color: #fff;
+}
+
+section#hire-Id .row .r-btn {
+  background: #343a40;
+}
+
+section#hire-Id .row .r-btn:hover {
+  background: #fff;
+}
+
 
 /* Testimonial */
 .testimony-class .test-item {
