@@ -96,6 +96,10 @@ nav.stickyadd .hamburger {
   color: #000;
 }
 
+.navbar-collapse {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 /* Header Section */
 
 header {
