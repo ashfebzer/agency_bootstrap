@@ -268,6 +268,10 @@ section#hire-Id .row .r-btn:hover {
   padding-bottom: 15px;
 }
 
+#portfolio .btn {
+  padding: 10px;
+}
+
 /* Contact Us Section */
 .contact .r-icon {
   color: #72bc44;
