@@ -42,7 +42,7 @@ p {
 nav.r-nav {
   background: transparent;
   padding: 20px 0;
-  transition: .5s all;
+  transition: 0.5s all;
 }
 
 nav .navbar-brand {
@@ -66,12 +66,6 @@ nav .navbar-nav li {
 
 #menu .current a {
   color: #72bc44 !important;
-}
-
-@media only screen and (max-width: 767px) {
-  .navbar-collapse {
-      background: rgba(0, 0, 0, 0.7);
-  }
 }
 
 
@@ -245,17 +239,18 @@ section#hire-Id .row .r-btn:hover {
 }
 
 .testimony-class .test-item .test-img{
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   object-fit: cover;
-}
-
-.test-item p.test-name{
-  font-size: 11px;
 }
 
 .testimony-class .test-item i {
   color: #72bc44;
+}
+
+
+.test-item p.test-name{
+  font-size: 11px;
 }
 
 /* Work Section */
@@ -269,16 +264,6 @@ section#hire-Id .row .r-btn:hover {
   color: #72bc44;
   font-size: 35px;
   margin:
-}
-
-/* Animate */
-@keyframes animate {
-  0% {
-    transform: translate(-50%, -50%) rotate(0deg);
-  }
-  100% {
-    transform: translate(-50%, -50%) rotate(360deg);
-  }
 }
 
 
