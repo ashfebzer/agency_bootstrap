@@ -96,8 +96,10 @@ nav.stickyadd .hamburger {
   color: #000;
 }
 
+@media only screen and (max-width: 991px) {
 .navbar-collapse {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
+}
 }
 
 /* Header Section */
@@ -219,6 +221,11 @@ header {
   color: #72bc44;
 }
 
+#services-id .services-list .card-header i {
+  font-size: 40px;
+
+}
+
 /* Work with us section */
 
 section#hire-Id {
@@ -255,7 +262,11 @@ section#hire-Id .row .r-btn:hover {
   color: #72bc44;
 }
 
-
+/* Work with us */
+.work .card-wrapper {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 
 /* Contact Us Section */
 .contact .r-icon {
