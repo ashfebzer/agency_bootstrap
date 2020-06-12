@@ -1,0 +1,288 @@
+/* Base Rules */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  color: #666666;
+}
+
+p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  color: #666666;
+}
+
+.r-p {
+  padding: 80px 0;
+}
+
+.bg-sec {
+  background: #f8f9fa;
+}
+
+.r-btn {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 25px;
+  background: #72bc44;
+}
+
+.r-btn:hover {
+  color: #72bc44;
+  border: 2px solid #72bc44;
+  background: none;
+}
+
+/* Navigation */
+nav.r-nav {
+  background: transparent;
+  padding: 20px 0;
+  transition: 0.5s all;
+}
+
+nav .navbar-brand {
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  color: #fff;
+}
+
+nav .navbar-nav li a {
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  font-family: Nunito, sans-serif ;
+}
+
+nav .navbar-nav li {
+  margin-left: 15px;
+}
+
+#menu .current a {
+  color: #72bc44 !important;
+}
+
+
+/* Sticky Menu */
+nav.r-nav.stickyadd {
+  background: #fff !important;
+  padding: 15px 0;
+  box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.05);
+  transition: 0.5s all ease-in-out;
+}
+
+nav.stickyadd .navbar-brand {
+  color: #72bc44;
+  font-size: 30px;
+  transition: .5s all;
+}
+
+nav.stickyadd .navbar-nav .nav-link {
+  color: #666666 !important;
+}
+
+/*  HAMBURGER MENU */
+
+nav .hamburger {
+  color: #fff;
+}
+
+nav.stickyadd .hamburger {
+  color: #000;
+}
+
+/* Header Section */
+
+header {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url('../img/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+
+.header-content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-box {
+  max-width: 700px;
+  color: #fff;
+}
+
+.content-box h4 {
+  color: #fff;
+  font-size: 30px;
+}
+
+.content-box h1 {
+  color: #fff;
+  font-size: 52px;
+}
+
+.content-box a {
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  padding: 5px 25px;
+}
+
+.content-box a:hover {
+  color: #72bc44;
+  background: #fff;
+  transition: .5s all;
+}
+
+.content-box p {
+  color: #fff;
+}
+
+#home .content-box span {
+  color: #72bc44;
+}
+
+/* About Section */
+
+#about .col-lg-6.mt-2.mt-lg-0 ul {
+  display: inline-block;
+  font-size: 30px;
+  transition: .5s all;
+}
+
+.about ul li a {
+  color: #72bc44;
+}
+
+/* Experience section - progress bar */
+
+.exp-class .progress {
+  height: 10px;
+  border-radius: 20px;
+  font-size: 10px;
+}
+
+.progress-bar {
+  background-color: #72bc44 !important;
+}
+
+.exp-class label {
+  font-size: 20px;
+  margin: 10px;
+}
+
+/* Services Section */
+
+.card, .card-header {
+  background: #F8F9Fa !important;
+  margin-top:20px;
+}
+
+#services-id .services-list {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+.card-header {
+  border: none !important;
+}
+
+.services .card-header i {
+  font-size: 50px;
+}
+
+.service-border {
+  height: 2px;
+  width: 40px;
+  margin: 15px auto;
+  background: #72bc44;
+  transition: 0.5s all;
+}
+
+.services-class .card .card-header i {
+  margin-top: 10px;
+  font-size: 25px;
+  color: #72bc44;
+}
+
+/* Work with us section */
+
+section#hire-Id {
+  background: #72bc44;
+  color: #fff;
+}
+
+section#hire-Id .row .r-btn {
+  background: #343a40;
+}
+
+section#hire-Id .row .r-btn:hover {
+  background: #fff;
+}
+
+
+/* Testimonial */
+.testimony-class .test-item {
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+.testimony-class .test-item .test-img{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.testimony-class .test-item i {
+  color: #72bc44;
+}
+
+
+.test-item p.test-name{
+  font-size: 11px;
+}
+
+/* Work Section */
+.work .card-wrapper {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* Contact Us Section */
+.contact .r-icon{
+  color: #72bc44;
+  font-size: 35px;
+  margin:
+}
+
+
+
+/* Footer Section */
+
+footer {
+    height: 100px;
+    background: #343a40;
+}
+
+footer .r-icon a {
+  color: #fff !important;
+}
+
+footer .r-icon a:hover {
+  color: #72bc44 !important;
+}
+
+footer .r-icon p {
+  color: #
+}
