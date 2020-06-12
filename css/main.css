@@ -68,6 +68,10 @@ nav .navbar-nav li {
   color: #72bc44 !important;
 }
 
+.collapse.show {
+    background: #000;
+}
+
 /* Sticky Menu */
 nav.r-nav.stickyadd {
   background: #fff !important;
