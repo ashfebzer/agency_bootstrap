@@ -21,6 +21,11 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
 
+    <!-- Scroll Animation -->
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="img\favicon.ico">
 
     <!-- Title -->
     <title>Agency - We are agency.</title>
@@ -84,14 +89,14 @@
 
     <!-- About section -->
 
-    <section class="about py-5" id="about">
+    <section class="about py-5" data-aos="fade-up" id="about">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 ">
             <img src="img/profile.jpg" class="img-fluid img-thumbnail" alt="image of pinepple">
           </div>
           <div class="col-lg-6 mt-2 mt-lg-0">
-            <h2 class="mb-3">About Us</h2>
+            <h2 class="mb-3 way-fade-up">About Us</h2>
             <h4 class="mb-4">We create <span style="color:#72bc44">Brands</span></h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, eaque?</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et sit tempora dolor! Quasi, beatae, at.</p>
@@ -118,8 +123,8 @@
     <section class="experience  mb-5" id="experience">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 text-center d-flex align-items-center justify-content-center way-fade-up"><h3>Our Expertise</h3></div>
-        <div class="col-md-6 way-fade-up">
+        <div class="col-md-6 text-center d-flex align-items-center justify-content-center" data-aos="fade-right"><h3>Our Expertise</h3></div>
+        <div class="col-md-6 way-fade-up" data-aos="fade-left">
           <label>Web Developement</label>
           <div class="progress">
             <div class="progress-bar progress-color" role="progressbar" style="width: 0%"  aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">100%</div>
@@ -160,7 +165,7 @@
     <div class="container text-center">
       <div class="row">
         <div class="col">
-          <div class="col">
+          <div class="col" data-aos="fade-down">
             <h2>Our Services</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, velit.</p>
           </div>
@@ -171,7 +176,7 @@
       <div class="row services-list">
         <div class="col-lg-4">
 
-          <div class="card">
+          <div class="card" data-aos="zoom-in">
             <div class="card-header">
               <i class="fas fa-user-tie"></i>
             </div>
@@ -185,7 +190,7 @@
         </div>
         <div class="col-lg-4">
 
-          <div class="card">
+          <div class="card" data-aos="zoom-in">
             <div class="card-header">
               <i class="fas fa-chart-pie"></i>
             </div>
@@ -200,7 +205,7 @@
         </div>
         <div class="col-lg-4">
 
-          <div class="card">
+          <div class="card" data-aos="zoom-in">
             <div class="card-header">
               <i class="far fa-chart-bar"></i>
             </div>
@@ -217,7 +222,7 @@
 
       <!-- Second Row -->
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-lg-4" data-aos="zoom-in">
 
           <div class="card">
             <div class="card-header">
@@ -234,7 +239,7 @@
         </div>
         <div class="col-lg-4">
 
-          <div class="card">
+          <div class="card" data-aos="zoom-in">
             <div class="card-header">
               <i class="fas fa-mobile-alt"></i>
             </div>
@@ -249,7 +254,7 @@
         </div>
         <div class="col-lg-4">
 
-          <div class="card">
+          <div class="card" data-aos="zoom-in">
             <div class="card-header">
               <i class="fas fa-search-plus"></i>
             </div>
@@ -273,8 +278,8 @@
     <div class="container text-center">
       <div class="row">
         <div class="col">
-          <h3 style="color:#fff">Let's work together</h3>
-          <a href="#" class="btn r-btn mt-3">Contact Us</a>
+          <h3 style="color:#fff" data-aos="fade-right">Let's work together</h3>
+          <a href="#" class="btn r-btn mt-3" data-aos="fade-left">Contact Us</a>
         </div>
       </div>
     </div>
@@ -285,12 +290,12 @@
 <section class="testimony-class r-p bg-sec" id="testimony-Id">
   <div class="container text-center">
     <div class="row">
-      <div class="col">
+      <div class="col" data-aos="fade-down">
         <h2>Testimonials</h2>
         <p>Our Happy Customers</p>
       </div>
     </div>
-    <div class="row">
+    <div class="row" data-aos="zoom-in">
       <div class="col">
         <div class="owl-carousel owl-theme">
           <!-- Testimonial One -->
@@ -340,13 +345,13 @@
 <section class="work r-p" id="portfolio">
   <div class="container">
   <div class="row text-center">
-    <div class="col mb-5">
+    <div class="col mb-5" data-aos="fade-down">
       <h2>Our Works</h2>
       <p>Lorem ipsum dolor sit amet.</p>
     </div>
   </div>
     <div class="row">
-        <div class="col-xs-12 mx-auto mb-5 text-center">
+        <div class="col-xs-12 mx-auto mb-5 text-center" data-aos="fade-up">
           <button class="btn r-btn" data-filter="all">All</button>
           <button class="btn r-btn" data-filter="1">Web</button>
           <button class="btn r-btn" data-filter="2">SEO</button>
@@ -359,9 +364,9 @@
 
           <!-- Image 1 -->
 
-          <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="1,2">
+          <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="1,2" >
               <div>
-                <img src="img\w1.jpg" class="img-fluid" alt="">
+                <img src="img\w1.jpg" class="img-fluid" data-aos="zoom-in" alt="">
               </div>
           </div>
 
@@ -369,7 +374,7 @@
 
           <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="1,2">
               <div>
-                <img src="img\w2.jpg" class="img-fluid" alt="">
+                <img src="img\w2.jpg" class="img-fluid" data-aos="zoom-in" alt="">
               </div>
           </div>
 
@@ -377,7 +382,7 @@
 
           <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="1,2">
               <div>
-                <img src="img\w3.jpg" class="img-fluid" alt="">
+                <img src="img\w3.jpg" class="img-fluid" data-aos="zoom-in" alt="">
               </div>
           </div>
 
@@ -385,7 +390,7 @@
 
           <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="4,2">
               <div>
-                <img src="img\w4.jpg" class="img-fluid" alt="">
+                <img src="img\w4.jpg" class="img-fluid" data-aos="zoom-in" alt="">
               </div>
           </div>
 
@@ -393,7 +398,7 @@
 
           <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="1,4,3">
               <div>
-                <img src="img\w5.jpg" class="img-fluid" alt="">
+                <img src="img\w5.jpg" class="img-fluid" data-aos="zoom-in" alt="">
               </div>
           </div>
 
@@ -401,7 +406,7 @@
 
           <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="4,3,2">
               <div>
-                <img src="img\w6.jpg" class="img-fluid" alt="">
+                <img src="img\w6.jpg" class="img-fluid" data-aos="zoom-in" alt="">
               </div>
           </div>
         </div>
@@ -413,14 +418,14 @@
 <section class="contact r-p bg-sec" id="contact">
   <div class="container text-center">
     <div class="row">
-      <div class="col">
+      <div class="col" data-aos="fade-right">
         <h2>Contact Us</h2>
         <p>Lorem ipsum dolor sit amet.</p>
       </div>
     </div>
     <div class="row mt-5">
 
-      <div class="col-md-4">
+      <div class="col-md-4" data-aos="zoom-in">
         <div class="r-icon">
           <i class="fas fa-mobile-alt"></i>
           <div class="text-center">
@@ -430,7 +435,7 @@
         </div>
       </div>
 
-      <div class="col-md-4">
+      <div class="col-md-4" data-aos="zoom-in">
         <div class="r-icon">
           <i class="fas fa-map-pin"></i>
           <div class="text-center">
@@ -440,7 +445,7 @@
         </div>
       </div>
 
-      <div class="col-md-4">
+      <div class="col-md-4" data-aos="zoom-in">
         <div class="r-icon">
           <i class="far fa-envelope"></i>
           <div class="text-center">
@@ -453,7 +458,7 @@
 
       <!-- Contact Form -->
 
-      <div class="row mt-5">
+      <div class="row mt-5" data-aos="zoom-in">
         <div class="col">
           <form>
             <div class="form-row">
@@ -485,18 +490,18 @@
       <div class="row">
         <div class="col">
           <div class="r-icon mt-3">
-        <ul class="list-inline ">
+        <ul class="list-inline">
           <li class="list-inline-item"><a href=""><i class="fab fa-facebook-f"></i></a></li>
           <li class="list-inline-item"><a href=""><i class="fab fa-instagram"></i></a></li>
           <li class="list-inline-item"><a href=""><i class="fab fa-twitter"></i></a></li>
           <li class="list-inline-item"><a href=""><i class="fab fa-youtube"></i></a></li>
           </ul>
           </div>
-            <p class="text-muted" style="font-size:15px">&copy;Copyright Agency. All rights reserved.</p>
+            <p class="text-muted"  style="font-size:15px" >&copy;Copyright Agency. All rights reserved.</p>
           </div>
         </div>
         <div class="col">
-          <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top float-right" role="button"><i class="fas fa-chevron-up"></i></a>
+          <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top float-right"  role="button"><i class="fas fa-chevron-up"></i></a>
         </div>
       </div>
   </footer>
@@ -514,6 +519,14 @@
     <script src="lib\jquery.waypoints.min.js"></script>
     <script src="lib\jquery.filterizr.min.js"></script>
     <script src="js\app.js"></script>
+
+    <!-- Scroll Animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init({
+      duration: 1000,
+    });
+    </script>
 
     <!-- Smoothscroll -->
     <script src="lib\smooth-scroll.js"></script>

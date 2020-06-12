@@ -66,6 +66,31 @@ $('#menu').onePageNav({
 	easing: 'swing'
 });
 
+// adding fadeInUp animation to child of div with class .way-col
+var $child = $('.way-fade-up').children();
+$child.each(function(){
+  var self= $(this);
+  $(this).waypoint(function(){
+    self.addClass('animated fadeInUp');
+  },{offset: '90%'});
+});
+
+var $child = $('.way-fade-left').children();
+$child.each(function(){
+  var self= $(this);
+  $(this).waypoint(function(){
+    self.addClass('animated fadeInLeft');
+  },{offset: '90%'});
+});
+
+var $child = $('.way-fade-right').children();
+$child.each(function(){
+  var self= $(this);
+  $(this).waypoint(function(){
+    self.addClass('animated fadeInRight');
+  },{offset: '90%'});
+});
+
 // Back to top
  $(document).ready(function(){
 	$(window).scroll(function () {
