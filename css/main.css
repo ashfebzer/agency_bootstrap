@@ -68,9 +68,12 @@ nav .navbar-nav li {
   color: #72bc44 !important;
 }
 
-.collapse.show {
-    background: #000;
+@media only screen and (max-width: 767px) {
+  .navbar-collapse {
+      background: rgba(0, 0, 0, 0.7);
+  }
 }
+
 
 /* Sticky Menu */
 nav.r-nav.stickyadd {
