@@ -170,6 +170,10 @@ header {
   color: #72bc44;
 }
 
+#about .social-icons .list-inline-item {
+  font-size: 25px;
+}
+
 /* Experience section - progress bar */
 
 .exp-class .progress {
@@ -187,11 +191,20 @@ header {
   margin: 10px;
 }
 
+
+
 /* Services Section */
 
 .card, .card-header {
-  background: #F8F9Fa !important;
+  background: #fff !important;
   margin-top:20px;
+  border: none;
+}
+
+.card:hover {
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(114,188,68,1);
+-moz-box-shadow: 0px 0px 20px 0px rgba(114,188,68,1);
+box-shadow: 0px 0px 20px 0px rgba(114,188,68,1);
 }
 
 #services-id .services-list {
@@ -282,7 +295,7 @@ section#hire-Id .row .r-btn:hover {
 /* Footer Section */
 
 footer {
-    height: 150px;
+    height: 100px;
     background: #343a40;
 }
 
