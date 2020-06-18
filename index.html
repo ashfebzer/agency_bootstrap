@@ -33,7 +33,7 @@
   <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg  sticky  fixed-top r-nav">
+    <nav class="navbar navbar-expand-lg  sticky  fixed-top r-nav" role="navigation">
       <div class="container">
         <a href="#" class="navbar-brand ml-4 mb-md-0">Agency</a>
         <button class="navbar-toggler mr-4 mr-md-0" type="button" data-toggle="collapse" data-target="#navbarID">
@@ -69,13 +69,21 @@
 
     <!-- End Navigation -->
 
+    
+
     <!-- Header -->
+    
     <header id="home">
+      <!-- Background Video -->
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <source src="vid/road.mp4" type="video/mp4">
+        </video>
+
       <div class="container-fluid header-content">
         <div class="row">
           <div class="col text-center">
             <div class="content-box">
-              <h4 data-aos="fade-in">Welcome</h4>
+              <h4 data-aos="fade-in">Guided by value.</h4>
               <h1 data-aos="fade-in">We <span class="element"></span></h1>
               <p data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A necessitatibus ducimus, quasi, voluptatem magni fugit.</p>
               <a href="#" class="btn" data-aos="fade-up">Contact Us</a>
@@ -83,21 +91,18 @@
           </div>
         </div>
       </div>
+    </div>
     </header>
 
     <!-- About section -->
 
-    <section class="about text-center text-lg-left r-p" id="about">
+    <section class="about text-center text-lg-right r-p" id="about">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 ">
-            <img src="img/profile.jpg" class="img-fluid img-thumbnail" data-aos="fade-right" alt="image of pinepple">
-          </div>
           <div class="col-lg-6 mt-5 mt-lg-0" data-aos="fade-left">
             <h2 class="mb-3">About Us</h2>
             <h4 class="mb-4">We create <span style="color:#72bc44">Brands</span></h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, eaque?</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et sit tempora dolor! Quasi, beatae, at.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, assumenda dolorum cum quos, nihil tenetur nulla dolorem illo dolores earum enim velit eos? Ex ad excepturi sit iusto! Ab architecto harum officia, aliquid mollitia beatae repellendus? Placeat nostrum earum voluptate odit officia nesciunt ipsa beatae quae amet facere officiis, omnis delectus, obcaecati minima libero nobis. Rerum maiores veniam ea ipsum quis eaque, maxime error nisi incidunt ut nam nulla enim magni fugiat nobis sed magnam eveniet distinctio aspernatur. Ex sed, aspernatur dolorem, quos ratione alias dignissimos vel harum, saepe porro pariatur. Repellendus et animi ab accusamus atque distinctio similique dolorem.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem nostrum ad, exercitationem commodi atque illum obcaecati, aut facilis quam veniam.</p>
             <div>
 
@@ -110,6 +115,11 @@
               </ul>
             </div>
           </div>
+
+          <div class="col-lg-6 ">
+            <img src="img/profile.jpg" class="img-fluid img-thumbnail" data-aos="fade-right" alt="image of pinepple">
+          </div>
+          
         </div>
       </div>
     </section>

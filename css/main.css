@@ -29,6 +29,7 @@ p {
   color: #fff;
   text-decoration: none;
   padding: 10px 25px;
+  border: 2px solid #72bc44;
   background: #72bc44;
 }
 
@@ -68,6 +69,8 @@ nav .navbar-nav li {
   color: #72bc44 !important;
 }
 
+
+
 /* Sticky Menu */
 nav.r-nav.stickyadd {
   background: #fff !important;
@@ -104,16 +107,8 @@ nav.stickyadd .hamburger {
 
 /* Header Section */
 
-header {
-  height: 100vh;
-  width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url('../img/background.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position:center;
-}
-
 .header-content {
+  
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -140,8 +135,7 @@ header {
   color: #fff;
   text-decoration: none;
   border: 2px solid #fff;
-  border-radius: 20px;
-  padding: 5px 25px;
+  padding: 8px 25px;
 }
 
 .content-box a:hover {
@@ -156,6 +150,41 @@ header {
 
 #home .content-box span {
   color: #72bc44;
+}
+
+/* Header video */
+header {
+  position: relative;
+  background-color: black;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
 }
 
 /* About Section */
@@ -201,6 +230,12 @@ header {
   border: none;
 }
 
+.card {
+  -webkit-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.13);
+  -moz-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.13);
+  box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.13);
+}
+
 .card:hover {
   -webkit-box-shadow: 0px 0px 20px 0px rgba(114,188,68,1);
 -moz-box-shadow: 0px 0px 20px 0px rgba(114,188,68,1);
@@ -242,7 +277,9 @@ box-shadow: 0px 0px 20px 0px rgba(114,188,68,1);
 /* Work with us section */
 
 section#hire-Id {
-  background: #72bc44;
+  background-image: url("https://images.unsplash.com/photo-1591947158725-710bc99b64d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1300&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #fff;
 }
 
