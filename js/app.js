@@ -1,27 +1,22 @@
 
 // Sticky Nav
 $(document).ready(function(){
-$(window).on('scroll',function(){
-  var scroll = $(window).scrollTop();
-  console.log(scroll);
-  if(scroll >=50){
-    $(".sticky").addClass("stickyadd");
-  }else{
-    $(".sticky").removeClass("stickyadd");
-  }
-})
 
-// Typing Animation
 
-  var typed = new Typed(".element", {
-  strings: ["Design","Develope","are the Agency"],
-  smartBackspace: true,
-   typeSpeed: 100,
-   backSpeed: 100,
-   loop: true,
-  loopCount: Infinity,
-  startDelay: 1000
-});
+  $(window).on('load',function(){
+    $('.preloader').addClass('complete')
+  });
+  
+  $(window).on('scroll',function(){
+    var scroll = $(window).scrollTop();
+    console.log(scroll);
+    if(scroll >=50){
+      $(".sticky").addClass("stickyadd");
+    }else{
+      $(".sticky").removeClass("stickyadd");
+    }
+  });
+
 
 // Progress bar
 
@@ -40,6 +35,21 @@ var waypoint = new Waypoint({
   },
    offset: '90%'
 });
+  
+
+// Typing Animation
+
+  var typed = new Typed(".element", {
+  strings: ["Design","Develope","are the Agency"],
+  smartBackspace: true,
+   typeSpeed: 100,
+   backSpeed: 100,
+   loop: true,
+  loopCount: Infinity,
+  startDelay: 1000
+});
+
+
 
 
 // Filterizer
@@ -57,13 +67,22 @@ var filterizd = $('.filter-container').filterizr({
 });
 
 // One page nav
-$('#menu').onePageNav({
+$('#nav').onePageNav({
 	currentClass: 'current',
 	changeHash: false,
 	scrollSpeed: 750,
 	scrollThreshold: 0.5,
 	filter: '',
-	easing: 'swing'
+	easing: 'swing',
+	begin: function() {
+		//I get fired when the animation is starting
+	},
+	end: function() {
+		//I get fired when the animation is ending
+	},
+	scrollChange: function($currentListItem) {
+		//I get fired when you enter a section and I pass the list item of the section
+	}
 });
 
 // Back to top
