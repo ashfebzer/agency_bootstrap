@@ -9,14 +9,12 @@ $(document).ready(function(){
   
   $(window).on('scroll',function(){
     var scroll = $(window).scrollTop();
-    console.log(scroll);
     if(scroll >=50){
       $(".sticky").addClass("stickyadd");
     }else{
       $(".sticky").removeClass("stickyadd");
     }
   });
-
 
 // Progress bar
 
@@ -34,8 +32,7 @@ var waypoint = new Waypoint({
 
   },
    offset: '90%'
-});
-  
+});  
 
 // Typing Animation
 
@@ -49,12 +46,9 @@ var waypoint = new Waypoint({
   startDelay: 1000
 });
 
-
-
-
 // Filterizer
 var filterizd = $('.filter-container').filterizr({
-  animationDuration :.5,
+  animationDuration : .5,
 });
 
 // Owl Carousel
@@ -105,4 +99,4 @@ $('#nav').onePageNav({
 });
 
 
- });
+});
