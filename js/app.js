@@ -37,11 +37,11 @@ var waypoint = new Waypoint({
 // Typing Animation
 
   var typed = new Typed(".element", {
-  strings: ["Design","Develope","are the Agency"],
+  strings: ["Design.","Develope.","are the Agency."],
   smartBackspace: true,
-   typeSpeed: 100,
-   backSpeed: 100,
-   loop: true,
+  typeSpeed: 100,
+  backSpeed: 100,
+  loop: true,
   loopCount: Infinity,
   startDelay: 1000
 });
@@ -61,22 +61,14 @@ var filterizd = $('.filter-container').filterizr({
 });
 
 // One page nav
-$('#nav').onePageNav({
+$('#menu').onePageNav({
 	currentClass: 'current',
 	changeHash: false,
 	scrollSpeed: 750,
 	scrollThreshold: 0.5,
 	filter: '',
 	easing: 'swing',
-	begin: function() {
-		//I get fired when the animation is starting
-	},
-	end: function() {
-		//I get fired when the animation is ending
-	},
-	scrollChange: function($currentListItem) {
-		//I get fired when you enter a section and I pass the list item of the section
-	}
+	
 });
 
 // Back to top
@@ -89,7 +81,7 @@ $('#nav').onePageNav({
 			}
 		});
 
-		// scroll body to 0px on click
+// scroll body to 0px on click
 		$('#back-to-top').click(function () {
 			$('body,html').animate({
 				scrollTop: 0
