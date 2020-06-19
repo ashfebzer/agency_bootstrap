@@ -39,6 +39,8 @@ p {
   background: none;
 }
 
+
+
 /* Navigation */
 nav.r-nav {
   background: transparent;
@@ -242,18 +244,19 @@ header video {
 /* Services Section */
 
 .card, .card-header {
-  background: #fff !important;
+  background: #f8f9fa !important;
   margin-top:20px;
   border: none;
 }
 
 .card {
-  -webkit-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.13);
-  -moz-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.13);
-  box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.13);
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.29);
+-moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.29);
+box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.29);
 }
 
 .card:hover {
+  background: #f8f9fa !important;
   -webkit-box-shadow: 0px 0px 20px 0px rgba(114,188,68,1);
 -moz-box-shadow: 0px 0px 20px 0px rgba(114,188,68,1);
 box-shadow: 0px 0px 20px 0px rgba(114,188,68,1);
@@ -322,7 +325,7 @@ section#hire-Id .row .r-btn:hover {
 }
 
 .test-item p.test-name{
-  font-size: 11px;
+  font-size: 15px;
 }
 
 .testimony-class .test-item i {
@@ -349,7 +352,9 @@ section#hire-Id .row .r-btn:hover {
 /* Footer Section */
 
 footer {
-    background: #343a40;
+  display: flex;
+  height: 200px;
+  background: #343a40;
 }
 
 footer .r-icon a {
