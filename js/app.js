@@ -63,14 +63,13 @@ var filterizd = $('.filter-container').filterizr({
 });
 
 // One page nav
-$('#menu').onePageNav({
+$('#nav').onePageNav({
 	currentClass: 'current',
 	changeHash: false,
 	scrollSpeed: 750,
 	scrollThreshold: 0.5,
 	filter: '',
 	easing: 'swing',
-	
 });
 
 // Back to top
