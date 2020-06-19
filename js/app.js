@@ -9,6 +9,7 @@ $(document).ready(function(){
   
   $(window).on('scroll',function(){
     var scroll = $(window).scrollTop();
+    console.log(scroll);
     if(scroll >=50){
       $(".sticky").addClass("stickyadd");
     }else{
@@ -54,6 +55,7 @@ var filterizd = $('.filter-container').filterizr({
 // Owl Carousel
  $(".owl-carousel").owlCarousel({
    loop:true,
+    nav:false,
    autoplay:true,
    autoplayTimeout:4000,
    items:1

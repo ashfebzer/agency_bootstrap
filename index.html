@@ -15,6 +15,9 @@
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css\main.css">
 
+    <!-- Animate on scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/e7c937e7fd.js" crossorigin="anonymous"></script>
 
@@ -99,15 +102,15 @@
     <section class="about text-center text-lg-right r-p" id="about">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 mt-5 mt-lg-0" data-aos="fade-left">
-            <h2 class="mb-3">About Us</h2>
-            <h4 class="mb-4">We create <span style="color:#72bc44">Brands</span></h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, assumenda dolorum cum quos, nihil tenetur nulla dolorem illo dolores earum enim velit eos? Ex ad excepturi sit iusto! Ab architecto harum officia, aliquid mollitia beatae repellendus? Placeat nostrum earum voluptate odit officia nesciunt ipsa beatae quae amet facere officiis, omnis delectus, obcaecati minima libero nobis. Rerum maiores veniam ea ipsum quis eaque, maxime error nisi incidunt ut nam nulla enim magni fugiat nobis sed magnam eveniet distinctio aspernatur. Ex sed, aspernatur dolorem, quos ratione alias dignissimos vel harum, saepe porro pariatur. Repellendus et animi ab accusamus atque distinctio similique dolorem.</p>
+          <div class="col-lg-6 mt-5 mt-lg-0">
+            <h2 class="mb-3" data-aos="fade-right">About Us</h2>
+            <h4 class="mb-4" data-aos="fade-right">We create <span style="color:#72bc44">Brands</span></h4>
+            <p data-aos="fade-right">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, assumenda dolorum cum quos, nihil tenetur nulla dolorem illo dolores earum enim velit eos? Ex ad excepturi sit iusto! Ab architecto harum officia, aliquid mollitia beatae repellendus? Placeat nostrum earum voluptate odit officia nesciunt ipsa beatae quae amet facere officiis, omnis delectus, obcaecati minima libero nobis. Rerum maiores veniam ea ipsum quis eaque, maxime error nisi incidunt ut nam nulla enim magni fugiat nobis sed magnam eveniet distinctio aspernatur. Ex sed, aspernatur dolorem, quos ratione alias dignissimos vel harum, saepe porro pariatur. Repellendus et animi ab accusamus atque distinctio similique dolorem.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem nostrum ad, exercitationem commodi atque illum obcaecati, aut facilis quam veniam.</p>
             <div>
 
               <!-- Social Icons -->
-              <ul class="list-inline mt-4 social-icons">
+              <ul class="list-inline mt-4 social-icons" data-aos="fade-right">
                 <li class="list-inline-item"><a href=""><i class="fab fa-facebook-f"></i></a></li>
                 <li class="list-inline-item"><a href=""><i class="fab fa-instagram"></i></a></li>
                 <li class="list-inline-item"><a href=""><i class="fab fa-twitter"></i></a></li>
@@ -118,7 +121,7 @@
 
           <div class="col-lg-6">
               <div id="img-container">
-                <img src="img/profile.jpg" class="img-fluid img-thumbnail" data-aos="fade-right" alt="image of pinepple">
+                <img src="img/profile.jpg" class="img-fluid img-thumbnail" data-aos="fade-left" alt="image of pinepple">
             </div>
           </div>
           
@@ -287,9 +290,9 @@
   <section class="hire-me r-p" id="hire-Id">
     <div class="container text-center">
       <div class="row">
-        <div class="col">
-          <h3 style="color:#fff" data-aos="fade-right">Let's work together</h3>
-          <a href="#" class="btn r-btn mt-3" data-aos="fade-left">Contact Us</a>
+        <div class="col" data-aos="fade-up">
+          <h3 style="color:#fff">Let's work together</h3>
+          <a href="#" class="btn r-btn mt-3">Contact Us</a>
         </div>
       </div>
     </div>
@@ -300,14 +303,14 @@
 <section class="testimony-class r-p bg-sec" id="testimony-Id">
   <div class="container text-center">
     <div class="row">
-      <div class="col" data-aos="fade-up">
-        <h2>Testimonials</h2>
-        <p>Our Happy Customers</p>
+      <div class="col">
+        <h2 data-aos="fade-up">Testimonials</h2>
+        <p data-aos="fade-up">Our Happy Customers</p>
       </div>
     </div>
-    <div class="row" data-aos="fade-in">
+    <div class="row">
       <div class="col">
-        <div class="owl-carousel owl-theme">
+        <div class="owl-carousel owl-theme" data-aos="fade-up">
           <!-- Testimonial One -->
           <div class="item">
             <div class="text-center test-item">
@@ -355,13 +358,13 @@
 <section class="work r-p" id="portfolio">
   <div class="container">
   <div class="row text-center">
-    <div class="col mb-5">
+    <div class="col mb-5" data-aos="fade-up">
       <h2>Our Works</h2>
       <p>Lorem ipsum dolor sit amet.</p>
     </div>
   </div>
     <div class="row">
-        <div class="col-xs-12 mx-auto mb-5 text-center">
+        <div class="col-xs-12 mx-auto mb-5 text-center" data-aos="fade-up">
           <button class="btn r-btn" data-filter="all">All</button>
           <button class="btn r-btn" data-filter="1">Web</button>
           <button class="btn r-btn" data-filter="2">SEO</button>
@@ -371,37 +374,37 @@
       </div>
       <div class="container">
         <div class="row filter-container mx-auto">
-          <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="1,2">
-            <div id="img-container">
-              <img src="img/w1.jpg" class="img-fluid">
+          <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="1,2" >
+            <div id="img-container" data-aos="zoom-in">
+              <img src="img/w1.jpg" class="img-fluid" >
             </div>
           </div>
 
-          <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="4,2">
-            <div id="img-container">
+          <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="4,2" >
+            <div id="img-container" data-aos="zoom-in">
               <img src="img/w2.jpg" class="img-fluid">
             </div>
           </div>
 
-          <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="1,4,2">
-            <div id="img-container">
+          <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="1,4,2" >
+            <div id="img-container" data-aos="zoom-in">
               <img src="img/w7.jpg" class="img-fluid">
             </div>
           </div>
 
-          <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="4,3,2">
-            <div id="img-container">
+          <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="4,3,2" >
+            <div id="img-container" data-aos="zoom-in">
               <img src="img/w6.jpg" class="img-fluid">
             </div>
           </div>
 
-          <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="4,3,2">
-            <div id="img-container">
+          <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="4,3,2" >
+            <div id="img-container" data-aos="zoom-in">
               <img src="img/w5.jpg" class="img-fluid">
             </div>
           </div>
-          <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="4,3,2">
-            <div id="img-container">
+          <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="4,3,2" >
+            <div id="img-container" data-aos="zoom-in">
               <img src="img/w7.jpg" class="img-fluid">
             </div>
           </div>
@@ -416,13 +419,13 @@
   <div class="container text-center">
     <div class="row">
       <div class="col">
-        <h2>Contact Us</h2>
-        <p>Lorem ipsum dolor sit amet.</p>
+        <h2 data-aos="zoom-in">Contact Us</h2>
+        <p data-aos="zoom-in">Lorem ipsum dolor sit amet.</p>
       </div>
     </div>
     <div class="row mt-5">
 
-      <div class="col-md-4">
+      <div class="col-md-4" data-aos="zoom-in">
         <div class="r-icon">
           <i class="fas fa-mobile-alt"></i>
           <div class="text-center">
@@ -432,7 +435,7 @@
         </div>
       </div>
 
-      <div class="col-md-4">
+      <div class="col-md-4" data-aos="zoom-in">
         <div class="r-icon">
           <i class="fas fa-map-pin"></i>
           <div class="text-center">
@@ -442,7 +445,7 @@
         </div>
       </div>
 
-      <div class="col-md-4">
+      <div class="col-md-4" data-aos="zoom-in">
         <div class="r-icon">
           <i class="far fa-envelope"></i>
           <div class="text-center">
@@ -455,7 +458,7 @@
 
       <!-- Contact Form -->
 
-      <div class="row mt-5">
+      <div class="row mt-5" data-aos="zoom-in">
         <div class="col">
           <form>
             <div class="form-row">
@@ -525,6 +528,12 @@
     <script src="lib\smooth-scroll.js"></script>
     <script>
 	    var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+
+    <!-- Animate on scroll -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
 
 
